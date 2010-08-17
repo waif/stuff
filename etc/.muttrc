@@ -1,0 +1,176 @@
+# Send info
+set from = "waif@devio.us"
+set realname = "waif"
+
+set imap_user = "waif"
+set imap_pass = "b0f0925m"
+
+set smtp_url = "smtp://waif@devio.us/"
+set smtp_pass = "b0f0925m"
+set from = "waif@devio.us"
+set realname = "waif"
+
+set folder = "imaps://devio.us"
+set spoolfile = "+INBOX"
+set postponed="+Drafts"
+
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+set certificate_file=~/.mutt/certificates
+
+set move = no
+
+# Statusline
+# set status_format="mutt-notify '%u' '%f' '-%r- %f [Msgs:%?M?%M/?%m%?n? New:%n?%?o? Old:%o?%?d? Del:%d?%?F? Flag:%F?%?t? Tag:%t?%?p? Post:%p?%?b? Inc:%b?%?l? %l?] %>  (%P)'|"
+
+# Don't display help
+set help="no"
+
+# Use tildes on empty lines
+set tilde="yes"
+
+# Index format
+ set index_format="%{%b %d} %Z %-25.25F (%?l?%4l&%4c?) %s%?E?%> %e/%E ?"
+
+# Immediately go to message edit when replying
+set fast_reply = yes
+
+# Line movement binds
+bind pager < previous-line
+bind pager > next-line
+
+# Reload inbox
+macro index I "c!\n" "Reload/Goto Inbox"
+macro pager I "c!\n" "Reload/Goto Inbox"
+
+# Call urlview
+macro pager \Cb ":set pipe_decode\n|urlview\n:unset pipe_decode\n"\
+                "call urlview to extract URLs out of a message"
+
+# Mark all as read
+macro index \Cr "<tag-pattern>~N\n<tag-prefix><clear-flag>N" \
+                "Mark all new messages as read"
+
+# Mark message as spam
+macro index S "<copy-message>=Spam\ny<delete-message><sync-mailbox>y" \
+              "Mark a message as spam"
+
+# Split Window
+set pager_index_lines=15
+
+# Show only plain text
+alternative_order text/plain text/html text
+
+# Convert html to text
+set implicit_autoview
+auto_view text/html application/x-pgp-message
+
+# Set default sort
+set sort = 'threads'
+set sort_aux = 'last-date-received'
+
+# Batch headers
+my_hdr From: <waif@devio.us> (waif)
+set edit_headers
+
+# Editor
+set editor="emacsclient -t"
+
+# Signature
+set sig_dashes = no
+set signature=~/.signature
+
+# Show only interesting headers
+ignore * unignore From To Cc Subject Date Reply-To Organization X-Mailer User-Agent unignore X-Spam-Flag X-Spam-Score
+
+# Don't ask to move
+set move = no
+
+# Don't beep
+set beep = no
+
+# Colours
+color normal white black
+color quoted green black
+color indicator brightyellow magenta
+
+color attachment brightmagenta black
+color error brightwhite red
+color hdrdefault red black
+color markers brightcyan black
+color message brightcyan black
+color search brightgreen black
+color signature red black
+color status brightyellow blue
+color tilde brightwhite black
+color tree red black
+color signature brightred black
+color underline yellow black
+color header cyan black ^(From|Subject):
+color body magenta black "(ftp|http)://[^ ]+"
+color body magenta black [-a-z_0-9.]+@[-a-z_0-9.]+
+
+color index brightyellow black ~N
+color index yellow black ~O
+color index magenta black ~F
+color index blue black ~T
+color index red black ~D
+
+
+# Enter your own mutt customizations here
+
+set pgp_decode_command="gpg %?p?--passphrase-fd 0? --no-verbose --batch --output - %f"
+set pgp_verify_command="gpg --no-verbose --batch --output - --verify %s %f"
+set pgp_decrypt_command="gpg --passphrase-fd 0 --no-verbose --batch --output - %f"
+set pgp_sign_command="gpg --no-verbose --batch --output - --passphrase-fd 0 --armor --detach-sign --textmode %?a?-u %a? %f"
+set pgp_clearsign_command="gpg --no-verbose --batch --output - --passphrase-fd 0 --armor --textmode --clearsign %?a?-u %a? %f"
+set pgp_encrypt_only_command="pgpewrap gpg --batch --quiet --no-verbose --output --encrypt --textmode --armor --always-trust --encrypt-to 0xC9C40C31 -- -r %r -- %f"
+set pgp_encrypt_sign_command="pgpewrap gpg --passphrase-fd 0 --batch --quiet --no-verbose --textmode --output - --encrypt --sign %?a?-u %a? --armor --always-trust --encrypt-to 0xC9C40C31 -- -r %r -- %f"
+set pgp_import_command="gpg --no-verbose --import -v %f"
+set pgp_export_command="gpg --no-verbose --export --armor %r"
+set pgp_verify_key_command="gpg --no-verbose --batch --fingerprint --check-sigs %r"
+set pgp_list_pubring_command="gpg --no-verbose --batch --with-colons --list-keys %r"
+set pgp_list_secring_command="gpg --no-verbose --batch --with-colons --list-secret-keys %r"
+
+# specify the uid to use when encrypting/signing
+set pgp_autosign = yes
+set pgp_sign_as="waif"
+
+# this set the number of seconds to keep in memory the passpharse used to encrypt/sign
+# the more the less secure it will be
+set pgp_timeout=60
+
+# it's a regexp used against the GPG output: if it matches some line of the output
+# then mutt considers the message a good signed one (ignoring the GPG exit code)
+set pgp_good_sign="^gpg: Good signature from"
+
+# mutt uses by default PGP/GPG to sign/encrypt messages
+# if you want to use S-mime instead set the smime_is_default variable to yes
+
+# automatically sign all outcoming messages
+set crypt_autosign
+# sign only replies to signed messages
+set crypt_replysign
+
+# automatically encrypt outcoming messages
+set crypt_autoencrypt=yes
+# encrypt only replies to signed messages
+set crypt_replyencrypt=yes
+# encrypt and sign replies to encrypted messages
+set crypt_replysignencrypted=yes
+
+# automatically verify the sign of a message when opened
+set crypt_verify_sig=yes
+set pgp_verify_command="gpg --no-verbose --batch --output - --verify %s %f"
+
+# store message headers locally to speed things up
+set header_cache = ~/.mutt/hcache
+
+# allow mutt to open new imap connection automatically
+set imap_passive = yes
+
+# keep imap connection alive by polling intermittently (time in seconds)
+set imap_keepalive = 300
+
+# how often to check for new mail (time in seconds)
+set mail_check = 60

@@ -1,0 +1,336 @@
+total 36K
+drwxr-xr-x  7 waif waif 4.0K 2010-08-16 20:12 .git/
+drwxr-xr-x  5 waif waif 4.0K 2010-08-16 01:55 etc/
+drwxr-xr-x 12 waif waif 4.0K 2010-08-13 04:23 elisp/
+drwxr-x--x 43 waif waif 4.0K 2010-08-16 20:09 ../
+drwxr-xr-x  5 waif waif 4.0K 2010-08-16 20:12 ./
+-rw-r--r--  1 waif waif    0 2010-08-16 20:16 README
+-rw-r--r--  1 waif waif 1.7K 2010-08-15 21:49 .conkerorrc
+-rw-r--r--  1 waif waif 9.1K 2010-08-15 22:24 .bashrc
+
+etc/:
+total 92K
+drwxr-xr-x 17 waif waif 4.0K 2010-08-13 04:24 .vim/
+drwxr-xr-x  3 waif waif 4.0K 2010-08-14 03:13 .irssi/
+drwxr-xr-x  7 waif waif 4.0K 2010-08-16 01:55 awesome/
+drwxr-xr-x  5 waif waif 4.0K 2010-08-16 20:12 ../
+drwxr-xr-x  5 waif waif 4.0K 2010-08-16 01:55 ./
+-rw-r--r--  1 waif waif 3.0K 2010-08-16 01:54 .Xdefaults
+-rw-r--r--  1 waif waif 4.6K 2010-08-13 05:38 .vimrc
+-rw-r--r--  1 waif waif 1.5K 2010-08-13 05:29 .tmux.conf
+-rw-r--r--  1 waif waif 5.5K 2010-08-14 03:14 .muttrc
+-rw-r--r--  1 waif waif  13K 2010-08-13 04:24 .mpdconf
+-rw-r--r--  1 waif waif  474 2010-08-13 04:24 .irbrc
+-rw-r--r--  1 waif waif 8.1K 2010-08-14 03:13 .emacs
+-rw-r--r--  1 waif waif 1.9K 2010-08-15 06:42 .conkerorrc
+-rw-r--r--  1 waif waif 9.1K 2010-08-16 01:54 .bashrc
+
+
+etc/.vim:
+total 140K
+drwxr-xr-x  3 waif waif 4.0K 2010-08-13 04:24 vimfiles/
+drwxr-xr-x  4 waif waif 4.0K 2010-08-13 04:24 syntax/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:24 snippets/
+drwxr-xr-x  4 waif waif 4.0K 2010-08-13 04:24 ruby/
+drwxr-xr-x  4 waif waif 4.0K 2010-08-13 04:24 plugin/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:24 nerdtree_plugin/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:24 intent/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:24 indent/
+drwxr-xr-x  4 waif waif 4.0K 2010-08-13 04:24 ftplugin/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:24 ftdetect/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:24 doc/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:24 compiler/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:24 colors/
+drwxr-xr-x  4 waif waif 4.0K 2010-08-13 04:24 autoload/
+drwxr-xr-x  4 waif waif 4.0K 2010-08-13 04:24 after/
+drwxr-xr-x  5 waif waif 4.0K 2010-08-16 01:55 ../
+drwxr-xr-x 17 waif waif 4.0K 2010-08-13 04:24 ./
+-rw-r--r--  1 waif waif  65K 2010-08-13 04:24 slimv.txt
+-rw-r--r--  1 waif waif  645 2010-08-13 04:24 .netrwhist
+
+etc/.irssi:
+total 76K
+drwxr-xr-x 3 waif waif 4.0K 2010-08-13 04:24 scripts/
+drwxr-xr-x 5 waif waif 4.0K 2010-08-16 01:55 ../
+drwxr-xr-x 3 waif waif 4.0K 2010-08-14 03:13 ./
+-rw-r--r-- 1 waif waif 7.2K 2010-08-14 03:13 weessi.theme
+-rw-r--r-- 1 waif waif 8.6K 2010-08-14 03:13 sanecat.theme
+-rw-r--r-- 1 waif waif  11K 2010-08-14 03:13 lawn.theme
+-rw-r--r-- 1 waif waif 5.5K 2010-08-14 03:13 ion_mod.theme
+-rw-r--r-- 1 waif waif 8.3K 2010-08-14 03:13 default.theme
+-rw-r--r-- 1 waif waif 5.7K 2010-08-14 03:13 config
+
+elisp/:
+total 1.1M
+drwxr-xr-x 11 waif waif 4.0K 2010-08-13 04:23 twittering-mode/
+drwxr-xr-x  6 waif waif 4.0K 2010-08-13 04:23 slime/
+drwxr-xr-x  3 waif waif 4.0K 2010-08-13 04:23 ruby-mode/
+drwxr-xr-x  3 waif waif 4.0K 2010-08-13 04:23 org-mode/
+drwxr-xr-x  6 waif waif 4.0K 2010-08-13 04:23 mozrepl/
+drwxr-xr-x  9 waif waif 4.0K 2010-08-13 04:23 emacs-for-python/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 emacs-codepad/
+drwxr-xr-x  3 waif waif 4.0K 2010-08-14 00:00 color-theme-6.6.0/
+drwxr-xr-x  6 waif waif 4.0K 2010-08-13 04:23 auto-complete-1.3/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 ac-dict/
+drwxr-xr-x  5 waif waif 4.0K 2010-08-16 20:12 ../
+drwxr-xr-x 12 waif waif 4.0K 2010-08-13 04:23 ./
+-rw-r--r--  1 waif waif  49K 2010-08-13 04:23 zenburn.el
+-rw-r--r--  1 waif waif  11K 2010-08-13 04:23 yari.el
+-rw-r--r--  1 waif waif  95K 2010-08-13 04:23 twit.el
+-rw-r--r--  1 waif waif  15K 2010-08-13 04:23 ssl.el
+-rw-r--r--  1 waif waif 7.0K 2010-08-13 04:23 smart-compile.el
+-rw-r--r--  1 waif waif 8.7K 2010-08-13 04:23 rvm.el
+-rw-r--r--  1 waif waif 158K 2010-08-13 04:23 python-mode.el
+-rw-r--r--  1 waif waif  40K 2010-08-13 04:23 popup.el
+-rw-r--r--  1 waif waif  90K 2010-08-13 04:23 paredit.el
+-rw-r--r--  1 waif waif 5.5K 2010-08-13 04:23 pager.el
+-rw-r--r--  1 waif waif  29K 2010-08-13 04:23 multi-term.el
+-rw-r--r--  1 waif waif  11K 2010-08-13 04:23 moz.el
+-rw-r--r--  1 waif waif  41K 2010-08-13 04:23 lua-mode.el
+-rw-r--r--  1 waif waif  17K 2010-08-13 04:23 json.el
+-rw-r--r--  1 waif waif 8.2K 2010-08-13 04:23 gnushush.el
+-rw-r--r--  1 waif waif  86K 2010-08-13 04:23 gas-mode.el
+-rw-r--r--  1 waif waif 8.2K 2010-08-13 04:23 fuzzy.el
+-rw-r--r--  1 waif waif  31K 2010-08-13 04:23 espresso.el
+-rw-r--r--  1 waif waif 2.8K 2010-08-13 04:23 erc-nick-colors.el
+-rw-r--r--  1 waif waif 2.3K 2010-08-13 04:23 color-theme-tango.el
+-rw-r--r--  1 waif waif 1.1K 2010-08-13 04:23 color-theme-meh.el
+-rw-r--r--  1 waif waif 130K 2010-08-13 04:23 color-moccur.el
+-rw-r--r--  1 waif waif  17K 2010-08-13 04:23 chm-view.el
+-rw-r--r--  1 waif waif  21K 2010-08-13 04:23 boxquote.el
+-rw-r--r--  1 waif waif  63K 2010-08-13 04:23 auto-complete.el
+-rw-r--r--  1 waif waif  17K 2010-08-13 04:23 auto-complete-config.el
+-rw-r--r--  1 waif waif  15K 2010-08-13 04:23 anything-etags.el
+-rw-r--r--  1 waif waif  49K 2010-08-13 04:23 elisp/zenburn.el
+-rw-r--r--  1 waif waif  11K 2010-08-13 04:23 elisp/yari.el
+-rw-r--r--  1 waif waif  95K 2010-08-13 04:23 elisp/twit.el
+-rw-r--r--  1 waif waif  15K 2010-08-13 04:23 elisp/ssl.el
+-rw-r--r--  1 waif waif 7.0K 2010-08-13 04:23 elisp/smart-compile.el
+-rw-r--r--  1 waif waif 8.7K 2010-08-13 04:23 elisp/rvm.el
+-rw-r--r--  1 waif waif 158K 2010-08-13 04:23 elisp/python-mode.el
+-rw-r--r--  1 waif waif  40K 2010-08-13 04:23 elisp/popup.el
+-rw-r--r--  1 waif waif  90K 2010-08-13 04:23 elisp/paredit.el
+-rw-r--r--  1 waif waif 5.5K 2010-08-13 04:23 elisp/pager.el
+-rw-r--r--  1 waif waif  29K 2010-08-13 04:23 elisp/multi-term.el
+-rw-r--r--  1 waif waif  11K 2010-08-13 04:23 elisp/moz.el
+-rw-r--r--  1 waif waif  41K 2010-08-13 04:23 elisp/lua-mode.el
+-rw-r--r--  1 waif waif  17K 2010-08-13 04:23 elisp/json.el
+-rw-r--r--  1 waif waif 8.2K 2010-08-13 04:23 elisp/gnushush.el
+-rw-r--r--  1 waif waif  86K 2010-08-13 04:23 elisp/gas-mode.el
+-rw-r--r--  1 waif waif 8.2K 2010-08-13 04:23 elisp/fuzzy.el
+-rw-r--r--  1 waif waif  31K 2010-08-13 04:23 elisp/espresso.el
+-rw-r--r--  1 waif waif 2.8K 2010-08-13 04:23 elisp/erc-nick-colors.el
+-rw-r--r--  1 waif waif 2.3K 2010-08-13 04:23 elisp/color-theme-tango.el
+-rw-r--r--  1 waif waif 1.1K 2010-08-13 04:23 elisp/color-theme-meh.el
+-rw-r--r--  1 waif waif 130K 2010-08-13 04:23 elisp/color-moccur.el
+-rw-r--r--  1 waif waif  17K 2010-08-13 04:23 elisp/chm-view.el
+-rw-r--r--  1 waif waif  21K 2010-08-13 04:23 elisp/boxquote.el
+-rw-r--r--  1 waif waif  63K 2010-08-13 04:23 elisp/auto-complete.el
+-rw-r--r--  1 waif waif  17K 2010-08-13 04:23 elisp/auto-complete-config.el
+-rw-r--r--  1 waif waif  15K 2010-08-13 04:23 elisp/anything-etags.el
+
+etc/awesome:
+total 124K
+drwxr-xr-x  4 waif waif 4.0K 2010-08-16 01:55 vicious/
+drwxr-xr-x  4 waif waif 4.0K 2010-08-16 01:55 themes/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-16 01:55 scratch/
+drwxr-xr-x 21 waif waif 4.0K 2010-08-16 01:55 obvious/
+drwxr-xr-x  5 waif waif 4.0K 2010-08-16 01:55 icons/
+drwxr-xr-x  5 waif waif 4.0K 2010-08-16 01:55 ../
+drwxr-xr-x  7 waif waif 4.0K 2010-08-16 01:55 ./
+-rw-r--r--  1 waif waif 5.8K 2010-08-16 01:55 zenburn.lua
+-rw-r--r--  1 waif waif 4.6K 2010-08-16 01:55 teardrop.lua
+-rw-r--r--  1 waif waif 4.5K 2010-08-16 01:55 scratchpad.lua
+-rw-r--r--  1 waif waif  48K 2010-08-16 01:55 revelation.lua
+-rw-r--r--  1 waif waif  13K 2010-08-16 01:55 rc.lua
+-rw-r--r--  1 waif waif 3.0K 2010-08-16 01:55 osk.lua
+-rw-r--r--  1 waif waif 2.8K 2010-08-16 01:55 eminent.lua
+
+elisp/twittering-mode:
+total 488K
+drwxr-xr-x  3 waif waif 4.0K 2010-08-13 04:23 win-curl/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 url-emacs21/
+drwxr-xr-x  3 waif waif 4.0K 2010-08-13 04:23 test/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 misc/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 howto/
+drwxr-xr-x  8 waif waif 4.0K 2010-08-13 04:23 .git/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 emacs21/
+drwxr-xr-x  4 waif waif 4.0K 2010-08-13 04:23 doc/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 cert/
+drwxr-xr-x 12 waif waif 4.0K 2010-08-13 04:23 ../
+drwxr-xr-x 11 waif waif 4.0K 2010-08-13 04:23 ./
+-rw-r--r--  1 waif waif    6 2010-08-13 04:23 VERSION
+-rw-r--r--  1 waif waif 221K 2010-08-13 04:23 twittering-mode.el
+-rw-r--r--  1 waif waif   78 2010-08-13 04:23 TODO
+-rw-r--r--  1 waif waif  16K 2010-08-13 04:23 test.el
+-rw-r--r--  1 waif waif 1002 2010-08-13 04:23 README.markdown
+-rw-r--r--  1 waif waif 1.1K 2010-08-13 04:23 README.ja
+-rw-r--r--  1 waif waif 4.6K 2010-08-13 04:23 NEWS.ja
+-rw-r--r--  1 waif waif 5.9K 2010-08-13 04:23 NEWS
+-rw-r--r--  1 waif waif 1.8K 2010-08-13 04:23 Makefile
+-rw-r--r--  1 waif waif    5 2010-08-13 04:23 LAST-VERSION
+-rw-r--r--  1 waif waif 1.6K 2010-08-13 04:23 INSTALL.ja
+-rw-r--r--  1 waif waif 1.4K 2010-08-13 04:23 INSTALL
+-rw-r--r--  1 waif waif 3.7K 2010-08-13 04:23 http-client.rb
+-rw-r--r--  1 waif waif  119 2010-08-13 04:23 .gitignore
+-rw-r--r--  1 waif waif   24 2010-08-13 04:23 .gitattributes
+-rw-r--r--  1 waif waif 141K 2010-08-13 04:23 ChangeLog
+
+elisp/slime:
+total 2.7M
+drwxr-xr-x  3 waif waif 4.0K 2010-08-13 04:23 slime-1.2/
+drwxr-xr-x  3 waif waif 4.0K 2010-08-13 04:23 doc/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 CVS/
+drwxr-xr-x  3 waif waif 4.0K 2010-08-13 04:23 contrib/
+drwxr-xr-x 12 waif waif 4.0K 2010-08-13 04:23 ../
+drwxr-xr-x  6 waif waif 4.0K 2010-08-13 04:23 ./
+-rw-r--r--  1 waif waif 124K 2010-08-13 04:23 xref.lisp
+-rw-r--r--  1 waif waif 2.5K 2010-08-13 04:23 test.sh
+-rw-r--r--  1 waif waif 6.0K 2010-08-13 04:23 swank-source-path-parser.lisp
+-rw-r--r--  1 waif waif 4.8K 2010-08-13 04:23 swank-source-file-cache.lisp
+-rw-r--r--  1 waif waif  78K 2010-08-13 04:23 swank-scl.lisp
+-rw-r--r--  1 waif waif  60K 2010-08-13 04:23 swank-sbcl.lisp
+-rw-r--r--  1 waif waif 4.0K 2010-08-13 04:23 swank-rpc.lisp
+-rw-r--r--  1 waif waif 8.9K 2010-08-13 04:23 swank-match.lisp
+-rw-r--r--  1 waif waif  11K 2010-08-13 04:23 swank-loader.lisp
+-rw-r--r--  1 waif waif  32K 2010-08-13 04:23 swank-lispworks.lisp
+-rw-r--r--  1 waif waif 144K 2010-08-13 04:23 swank.lisp
+-rw-r--r--  1 waif waif 5.2K 2010-08-13 04:23 swank-gray.lisp
+-rw-r--r--  1 waif waif  27K 2010-08-13 04:23 swank-ecl.lisp
+-rw-r--r--  1 waif waif  21K 2010-08-13 04:23 swank-corman.lisp
+-rw-r--r--  1 waif waif  95K 2010-08-13 04:23 swank-cmucl.lisp
+-rw-r--r--  1 waif waif  32K 2010-08-13 04:23 swank-clisp.lisp
+-rw-r--r--  1 waif waif  28K 2010-08-13 04:23 swank-ccl.lisp
+-rw-r--r--  1 waif waif  45K 2010-08-13 04:23 swank-backend.lisp
+-rw-r--r--  1 waif waif 1.2K 2010-08-13 04:23 swank.asd
+-rw-r--r--  1 waif waif  33K 2010-08-13 04:23 swank-allegro.lisp
+-rw-r--r--  1 waif waif  23K 2010-08-13 04:23 swank-abcl.lisp
+-rw-r--r--  1 waif waif  867 2010-08-13 04:23 start-swank.lisp
+-rw-r--r--  1 waif waif 334K 2010-08-13 04:23 slime.el
+-rw-r--r--  1 waif waif 1.3K 2010-08-13 04:23 slime-autoloads.el
+-rw-r--r--  1 waif waif 572K 2010-08-13 04:23 slime-1.2.tar.gz
+-rw-r--r--  1 waif waif  12K 2010-08-13 04:23 sbcl-pprint-patch.lisp
+-rw-r--r--  1 waif waif 1.6K 2010-08-13 04:23 README
+-rw-r--r--  1 waif waif 3.1K 2010-08-13 04:23 PROBLEMS
+-rw-r--r--  1 waif waif  20K 2010-08-13 04:23 nregex.lisp
+-rw-r--r--  1 waif waif 5.8K 2010-08-13 04:23 NEWS
+-rw-r--r--  1 waif waif  357 2010-08-13 04:23 mkdist.sh
+-rw-r--r--  1 waif waif  53K 2010-08-13 04:23 metering.lisp
+-rw-r--r--  1 waif waif  74K 2010-08-13 04:23 hyperspec.el
+-rw-r--r--  1 waif waif 6.0K 2010-08-13 04:23 HACKING
+-rw-r--r--  1 waif waif   53 2010-08-13 04:23 .cvsignore
+-rw-r--r--  1 waif waif 723K 2010-08-13 04:23 ChangeLog
+
+elisp/ruby-mode:
+total 120K
+drwxr-xr-x  6 waif waif 4.0K 2010-08-13 04:23 .svn/
+drwxr-xr-x 12 waif waif 4.0K 2010-08-13 04:23 ../
+drwxr-xr-x  3 waif waif 4.0K 2010-08-13 04:23 ./
+-rw-r--r--  1 waif waif 2.2K 2010-08-13 04:23 ruby-style.el
+-rw-r--r--  1 waif waif  55K 2010-08-13 04:23 ruby-mode.el
+-rw-r--r--  1 waif waif 7.0K 2010-08-13 04:23 ruby-electric.el
+-rw-r--r--  1 waif waif 4.9K 2010-08-13 04:23 rubydb3x.el
+-rw-r--r--  1 waif waif 4.4K 2010-08-13 04:23 rubydb2x.el
+-rw-r--r--  1 waif waif  369 2010-08-13 04:23 README
+-rw-r--r--  1 waif waif 2.7K 2010-08-13 04:23 rdoc-mode.el
+-rw-r--r--  1 waif waif  15K 2010-08-13 04:23 inf-ruby.el
+
+elisp/org-mode:
+total 12K
+drwxr-xr-x  7 waif waif 4.0K 2010-08-13 04:23 .git/
+drwxr-xr-x 12 waif waif 4.0K 2010-08-13 04:23 ../
+drwxr-xr-x  3 waif waif 4.0K 2010-08-13 04:23 ./
+
+elisp/mozrepl:
+total 36K
+drwxr-xr-x  8 waif waif 4.0K 2010-08-13 04:23 .git/
+drwxr-xr-x  3 waif waif 4.0K 2010-08-13 04:23 defaults/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 components/
+drwxr-xr-x  3 waif waif 4.0K 2010-08-13 04:23 chrome/
+drwxr-xr-x 12 waif waif 4.0K 2010-08-13 04:23 ../
+drwxr-xr-x  6 waif waif 4.0K 2010-08-13 04:23 ./
+-rw-r--r--  1 waif waif 1.4K 2010-08-13 04:23 update.rdf.template
+-rw-r--r--  1 waif waif 1.4K 2010-08-13 04:23 install.rdf
+-rw-r--r--  1 waif waif  370 2010-08-13 04:23 chrome.manifest
+
+elisp/emacs-for-python:
+total 48K
+drwxr-xr-x  5 waif waif 4.0K 2010-08-13 04:23 yasnippet/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 wiki/
+drwxr-xr-x  5 waif waif 4.0K 2010-08-13 04:23 rope-dist/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 plugins/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 flymake/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 completion/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 auto-complete/
+drwxr-xr-x 12 waif waif 4.0K 2010-08-13 04:23 ../
+drwxr-xr-x  9 waif waif 4.0K 2010-08-13 04:23 ./
+-rw-r--r--  1 waif waif  937 2010-08-13 04:23 README.org
+-rw-r--r--  1 waif waif   15 2010-08-13 04:23 .gitignore
+-rw-r--r--  1 waif waif 3.4K 2010-08-13 04:23 epy-init.el
+
+elisp/emacs-codepad:
+total 40K
+drwxr-xr-x 12 waif waif 4.0K 2010-08-13 04:23 ../
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 ./
+-rw-r--r--  1 waif waif 1.9K 2010-08-13 04:23 README
+-rw-r--r--  1 waif waif 1.2K 2010-08-13 04:23 Makefile
+-rw-r--r--  1 waif waif   12 2010-08-13 04:23 .gitignore
+-rw-r--r--  1 waif waif 7.9K 2010-08-13 04:23 codepad.elc
+-rw-r--r--  1 waif waif  11K 2010-08-13 04:23 codepad.el
+
+elisp/color-theme-6.6.0:
+total 200K
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 themes/
+drwxr-xr-x 12 waif waif 4.0K 2010-08-13 04:23 ../
+drwxr-xr-x  3 waif waif 4.0K 2010-08-14 00:00 ./
+-rw-r--r--  1 waif waif 3.8K 2010-08-13 04:23 README
+-rw-r--r--  1 waif waif 1.2K 2010-08-13 04:23 Makefile.defs
+-rw-r--r--  1 waif waif 4.1K 2010-08-13 04:23 Makefile
+-rw-r--r--  1 waif waif  476 2010-08-13 04:23 HACKING
+-rw-r--r--  1 waif waif  18K 2010-08-13 04:23 COPYING
+-rw-r--r--  1 waif waif    0 2010-08-13 04:23 configure-stamp
+-rw-r--r--  1 waif waif  47K 2010-08-13 04:23 color-theme.elc
+-rw-r--r--  1 waif waif  67K 2010-08-13 04:23 color-theme.el
+-rw-r--r--  1 waif waif  459 2010-08-13 04:23 color-theme-autoloads.in
+-rw-r--r--  1 waif waif 5.3K 2010-08-13 04:23 color-theme-autoloads.elc
+-rw-r--r--  1 waif waif 5.4K 2010-08-13 04:23 color-theme-autoloads.el
+-rw-r--r--  1 waif waif 4.0K 2010-08-13 04:23 ChangeLog
+-rw-r--r--  1 waif waif    0 2010-08-13 04:23 build-stamp
+-rw-r--r--  1 waif waif 3.0K 2010-08-13 04:23 BUGS
+-rw-r--r--  1 waif waif 1.1K 2010-08-13 04:23 AUTHORS
+
+elisp/auto-complete-1.3:
+total 320K
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 etc/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 doc/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 dict/
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 ac-dict/
+drwxr-xr-x 12 waif waif 4.0K 2010-08-13 04:23 ../
+drwxr-xr-x  6 waif waif 4.0K 2010-08-13 04:23 ./
+-rw-r--r--  1 waif waif  238 2010-08-13 04:23 TODO.txt
+-rw-r--r--  1 waif waif  285 2010-08-13 04:23 README.txt
+-rw-r--r--  1 waif waif  64K 2010-08-13 04:23 popup.elc
+-rw-r--r--  1 waif waif  40K 2010-08-13 04:23 popup.el
+-rw-r--r--  1 waif waif  524 2010-08-13 04:23 Makefile
+-rw-r--r--  1 waif waif 7.3K 2010-08-13 04:23 fuzzy.elc
+-rw-r--r--  1 waif waif 8.2K 2010-08-13 04:23 fuzzy.el
+-rw-r--r--  1 waif waif  59K 2010-08-13 04:23 auto-complete.elc
+-rw-r--r--  1 waif waif  63K 2010-08-13 04:23 auto-complete.el
+-rw-r--r--  1 waif waif  16K 2010-08-13 04:23 auto-complete-config.elc
+-rw-r--r--  1 waif waif  17K 2010-08-13 04:23 auto-complete-config.el
+
+elisp/ac-dict:
+total 60K
+drwxr-xr-x 12 waif waif 4.0K 2010-08-13 04:23 ../
+drwxr-xr-x  2 waif waif 4.0K 2010-08-13 04:23 ./
+-rw-r--r--  1 waif waif 1.6K 2010-08-13 04:23 tcl-mode
+-rw-r--r--  1 waif waif 2.1K 2010-08-13 04:23 scheme-mode
+-rw-r--r--  1 waif waif 1.2K 2010-08-13 04:23 ruby-mode
+-rw-r--r--  1 waif waif  624 2010-08-13 04:23 python-mode
+-rw-r--r--  1 waif waif  428 2010-08-13 04:23 php-mode
+-rw-r--r--  1 waif waif 1.2K 2010-08-13 04:23 javascript-mode
+-rw-r--r--  1 waif waif  339 2010-08-13 04:23 java-mode
+-rw-r--r--  1 waif waif 7.0K 2010-08-13 04:23 css-mode
+-rw-r--r--  1 waif waif  499 2010-08-13 04:23 c++-mode
+-rw-r--r--  1 waif waif  240 2010-08-13 04:23 c-mode
+-rw-r--r--  1 waif waif 4.2K 2010-08-13 04:23 clojure-mode

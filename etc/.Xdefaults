@@ -1,0 +1,137 @@
+! rxvt-unicode settings
+!! rxvt-unicode behaviour
+URxvt*cutchars: `"()'*<>[]{|}
+urxvt*perl-lib: /usr/lib/urxvt/perl/
+
+URxvt.urgentOnBell: true
+URxvt.buffered: true
+URxvt*termName: rxvt
+URxvt*scrollBar: false
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt*secondaryScroll: true
+URxvt*jumpScroll: true
+URxvt*skipScroll: true
+URxvt*keysym.M-u: perl:mark-yank-urls:activate_mark_mode
+URxvt*perl-ext: default,matcher,mark-yank-urls
+URxvt*saveLines: 500
+URxvt*visualBell: true
+URxvt*highlightSelection: true
+URxvt*borderWidth: 0
+URxvt*urlLauncher: fxs
+URxvt*pointerBlank: true
+URxvt*internalBorder: 3
+URxvt.perl-ext-common: default,matcher
+URxvt.urlLauncher: conkeror
+URxvt.matcher.button: 1
+URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+
+!! rxvt-unicode appearance
+URxvt*background: black
+URxvt*foreground: white
+URxvt*cursorColor: white
+URxvt*cursorBlink: false
+
+!!rxvt-unicode fonts
+URxvt.font: xft:Terminus:pixelsize=13:antialias=true
+URxvt.boldFont: xft:Terminus:bold:pixelsize=13:antialias=true
+
+!URxvt.font: -*-terminus-medium-*-*-*-*-120-*-*-*-*-*-*
+!URxvt.boldFont: -*-terminus-bold-*-*-*-*-120-*-*-*-*-*-*
+
+! xterm settings
+xterm*background: #00000
+xterm*foreground: #FFFFF
+xterm.font: -*-terminus-medium-*-*-*-*-120-*-*-*-*-*-*
+
+!
+! Xdefaults
+!
+! Copyright (c) 2004-2010, Christopk Kappel <unexist@dorfelite.net>
+!
+! Black       = color0 + DarkGray = color8
+! DarkRed     = color1 + Red      = color9
+! DarkGreen   = color2 + Green    = color10
+! DarkYellow  = color3 + Yellow   = color11
+! DarkBlue    = color4 + Blue     = color12
+! DarkMagenta = color5 + Magenta  = color13
+! DarkCyan    = color6 + Cyan     = color14
+! LightGrey   = color7 + White    = color15
+
+! Digerati {{{
+*color0:  #303030
+*color1:  #c03000
+*color2:  #b1d631
+*color3:  #fecf35
+*color4:  #426870
+*color5:  #6D506D
+*color6:  #4bb5c1
+*color7:  #e2e2e5
+*color8:  #5F5F5F
+*color9:  #FF3A78
+*color10: #A6CD07
+*color11: #B5C865
+*color12: #4A7781
+*color13: #FF3B77
+*color14: #4bb5c1
+*color15: #e2e2e5
+! }}}
+
+! Green {{{
+!*color0: #000000
+!*color1: #963C59
+!*color2: #76B243
+!*color3: #B2B27F
+!*color4: #5986B2
+!*color5: #B250B1
+!*color6: #698FB2
+!*color7: #8f8f8f
+!*color8: #3c414c
+!*color9: #CF6171
+!*color10: #A8FF60
+!*color11: #FFFFB6
+!*color12: #6699CC
+!*color13: #FF73FD
+!*color14: #96CBFE
+!*color15: #F6F3E8 
+! }}}
+
+! Hornet {{{
+!*color0:  #303030
+!*color1:  #c03000
+!*color2:  #b1d631
+!*color3:  #fecf35
+!*color4:  #4b5661
+!*color5:  #7e8aa2
+!*color6:  #4bb5c1
+!*color7:  #e2e2e5
+!*color8:  #303030
+!*color9:  #c03000
+!*color10: #b1d631
+!*color11: #fecf35
+!*color12: #4b5661
+!*color13: #7e8aa2
+!*color14: #4bb5c1
+!*color15: #e2e2e5
+! }}}
+
+! Merged {{{
+!*color0:  #000000
+!*color1:  #963C59
+!*color2:  #76B243
+!*color3:  #B2B27F
+!*color4:  #5986B2
+!*color5:  #B250B1
+!*color6:  #698FB2
+!*color7:  #8f8f8f
+!*color8:  #3c414c
+!*color9:  #CF6171
+!*color10: #A8FF60
+!*color11: #FFFFB6
+!*color12: #6699CC
+!*color13: #FF73FD
+!*color14: #96CBFE
+!*color15: #F6F3E8
+! }}}
+
